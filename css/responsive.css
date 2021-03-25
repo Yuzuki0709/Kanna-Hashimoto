@@ -1,0 +1,112 @@
+@media(max-width: 600px){
+
+    .container{
+        width: 100%;
+        height: 140px;
+    }
+    .header_top{
+        justify-content: space-between;
+    }
+    .header_left{
+        margin-top: 30px;
+    }
+    .header_left img{
+        max-width: 100%;
+    }
+    .area_nav_header{
+        display: none;
+    }
+
+    /* メインコンテンツ */
+    .page_wrapper{
+        margin: 0 10px;
+        width: 100%;
+        display: block;
+        word-wrap: break-word;
+    }
+    .main_content{
+        width: 100%;
+    }
+
+    /* 紹介 */
+    #enter{
+    }
+    .enter_wrapper{
+    }
+    .area_content_enter{
+        display: block;
+        width: 100%;
+    }
+    .enter_left{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .main_image{
+        margin: 0;
+        width: 100%;
+    }
+    .sub_image{
+        display: none;
+    }
+
+    .enter_right{
+        width: 100%;
+    }
+    .area_sentent_enter{
+        word-wrap: break-word;
+    }
+    .area_sentent_enter p{
+        word-wrap: break-word;
+    }
+
+    /* MOVIE */
+    .content_movie{
+        width: 50%;
+    }
+
+    /* 出演情報 */
+    .inner_infor{
+        display: block;
+    }
+    .inner_infor strong{
+        font-size: 16px;
+    }
+
+    /* グッズ */
+    .area_content_goods{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content_goods img{
+        max-width: 115px;
+    }
+
+    /* Twitter */
+    .twitter_wrapper{
+        width: 100%;
+    }
+    .twitter_wrapper a{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .go_top{
+        width: 100%;
+    }
+
+    /* フッター */
+    .footer_wrapper{
+        width: 100%;
+    }
+    .area_content_footer{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .content_footer{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+}
